@@ -1,0 +1,110 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:text="Emergency Contacts"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="20dp"
+            android:elevation="8dp">
+
+            <!-- FAMILY CONTACT 1 -->
+            <EditText
+                android:id="@+id/name1"
+                android:hint="Family Contact 1 Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/phone1"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- FAMILY CONTACT 2 -->
+            <EditText
+                android:id="@+id/name2"
+                android:hint="Family Contact 2 Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/phone2"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- FAMILY CONTACT 3 -->
+            <EditText
+                android:id="@+id/name3"
+                android:hint="Family Contact 3 Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/phone3"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- HELPLINE -->
+            <TextView
+                android:text="Helpline (Backup)"
+                android:textStyle="bold"
+                android:textColor="#D32F2F"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/helpline"
+                android:hint="Helpline Number"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- BUTTON -->
+            <Button
+                android:id="@+id/saveBtn"
+                android:text="SAVE CONTACTS"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:backgroundTint="#D32F2F"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

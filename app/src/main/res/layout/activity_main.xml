@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0D0D0D">
+
+    <!-- 🔥 LOGO -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sahaya_logo"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerInside"/>
+
+    <!-- 🔴 APP NAME -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAHAYA"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FF3B3B"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- ✨ TAGLINE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Assistance for the Disabled"
+        android:textSize="14sp"
+        android:textColor="#BBBBBB"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- 🔴 LOGIN BUTTON -->
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- 🔴 SIGNUP BUTTON -->
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF3B3B"/>
+
+</LinearLayout>
